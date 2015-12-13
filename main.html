@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta charset="utf-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+		<link type='text/css' rel='stylesheet' href='styles/bootstrap.min.css'>
+		<link type='text/css' rel='stylesheet' href='styles/reset.css'>
+		<link type='text/css' rel='stylesheet' href='styles/main.css'>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/s/dt/dt-1.10.10/datatables.min.css"/>
+		<!-- // <script type="text/javascript" src="scripts/jquery.tablesorter.js"></script> -->
+		<!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedheader/3.1.0/css/fixedHeader.dataTables.min.css"> -->
+		<!-- // <script type="text/javascript" src="https://cdn.datatables.net/fixedheader/3.1.0/js/dataTables.fixedHeader.min.js"></script> -->
+		<script type="text/javascript" src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
+		<!-- // <script type="text/javascript" src="https://cdn.datatables.net/fixedheader/3.1.0/js/dataTables.fixedHeader.min.js"></script> -->
+<!-- 		// <script type="text/javascript" src="//cdn.datatables.net/scroller/1.2.0/js/dataTables.scroller.js"></script>
+		// <script type="text/javascript" src="//cdn.datatables.net/scroller/1.2.0/js/dataTables.scroller.min.js"></script> -->
+		<script src="scripts/main.js"></script>
+		<title>Synup Spreadsheet</title>
+	</head>
+	<body>
+		<div class="row top">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<h2 class="header">Enter number of rows and columns</h2>
+				<form class="form">
+					<h4 class="header-text">Enter no. of rows</h4>
+					<input type="number" id="row-text" class="numb-field"></text>
+					<h4 class="header-text">Enter no. of columns</h4>
+					<input type="number" id="col-text" class="numb-field"></text>
+					<button class="submit-button">DONE</button>
+				</form>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sort-btn">
+				<div class="second-row disp-none">
+					<h3>To change the title of column, click on the column-title and chnage the text here:</h3>
+					<input type="text" class=" hdr-text-class">
+				</div>
+				<button class="sorting-btn disp-none">Click to refresh Table</button>
+			</div>
+		</div>
+
+		<div class="row">
+			<div style="position:static">
+				<div class="table-div">
+	<!-- 				<div class="table-hdr disp-none">
+						<div class="fixed-hdr-cls"></div>
+					</div> -->
+					<table class="table">
+						<thead class="table-head"></thead>
+						<tbody class="table-body"></tbody>
+						<tfoot></tfoot>
+					</table>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>

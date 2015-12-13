@@ -1,0 +1,118 @@
+.row{
+	margin:0;
+	padding:0;
+}
+.header{
+	text-align: center;
+	margin:20px 0;
+}
+
+.table{
+	width:100%;
+}
+.form{
+	text-align: center;
+	margin-bottom:50px;
+}
+
+.table thead tr{
+	background-color:#8b97a3
+}
+.table tbody tr{
+
+}
+table{
+	table-layout: fixed;
+}
+.second-row{
+	margin:20px 0;
+}
+.table-hdr{
+	position:absolute; 
+	width:100%;
+}
+.table-hdr > div{
+	position: relative;
+	z-index: 2;
+	background-color: #8b97a3;
+	height: 46px;
+    margin-top: 27px;
+}
+.table-sticky{
+	position: absolute;
+	background: transparent;
+	color:#fff;
+	z-index:3;
+	width:100%;
+}
+.table-div{
+/*	max-height:200px;
+	overflow: auto;
+	max-width: 100%;*/
+}
+
+.th-div{
+	position: absolute;
+	z-index:10;
+	color: #fff;
+	top:15px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.fixed-hdr-cls{
+	position: relative;
+	z-index: 10;
+	background-color: red
+}
+.disp-none{
+	display: none;
+	/*margin-bottom:40px;*/
+}
+.sort-btn{
+	text-align: center;
+}
+thead th{
+	color:#fff;
+	background:transparent;
+	height:25px;
+	color:transparent;
+	position: relative;
+}
+.input-text{
+	display: none;
+}
+table td{
+	border-right: 1px solid #ddd;
+}
+/*tbody td{
+	border-top:0;
+}*/
+table td:nth-child(even){
+	background-color: #fff;
+}
+table td:nth-child(odd){
+	background-color: #f2f2f2;
+}
+table td:last-child{
+	border-right: 0;
+}
+
+.header-text{
+	display: inline-block;
+}
+
+.submit-button{
+	padding:10px;
+}
+/*.table-div{
+	position: relative;
+	max-height:250px;
+	overflow: auto;
+}*/
+.numb-field{
+	width:50px;
+	height:45px;
+	margin-right:20px;
+}
+
